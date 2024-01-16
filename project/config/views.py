@@ -22,4 +22,5 @@ def tirar_dado(request):
     if numero == 6:
         return HttpResponse(f"Felicitaciones, has tirado el dado {numero}")
     else:
-       return HttpResponse(f"Has tirado el dado numero {numero}, intente de nuevo")
+        return HttpResponse(f"Has tirado el dado numero {numero}, intente de nuevo")
+
